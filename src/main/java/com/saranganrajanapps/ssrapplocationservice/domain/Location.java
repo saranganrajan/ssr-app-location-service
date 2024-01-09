@@ -23,6 +23,6 @@ public class Location {
     String state;
     @JsonProperty("pinCode")
     String pinCode;
-    @JsonProperty("std")
-    String std;
+    @JsonProperty("std1")
+    String std1;
 }
