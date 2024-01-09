@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.saranganrajanapps</groupId>
 	<artifactId>ssr-app-location-service</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.1</version>
 	<name>ssr-app-location-service</name>
 	<description>Street Smart Ride</description>
 	<properties>
