@@ -15,6 +15,7 @@ public class LocationMapper {
                  .name(entity.getName())
                  .district(entity.getDistrict())
                  .state(entity.getState())
+                 .pinCode(entity.getPinCode())
                  .build();
     }
 
@@ -26,6 +27,7 @@ public class LocationMapper {
                     .name(entity.getName())
                     .district(entity.getDistrict())
                     .state(entity.getState())
+                          .pinCode(entity.getPinCode())
                     .build());
         });
          return locations;
