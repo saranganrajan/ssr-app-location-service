@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @Getter
 public class LocationEntity {
     String id;
+    String code;
     String name;
     String district;
     String state;
