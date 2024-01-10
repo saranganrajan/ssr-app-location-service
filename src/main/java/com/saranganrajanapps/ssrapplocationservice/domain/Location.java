@@ -17,6 +17,8 @@ public class Location {
     String id;
     @JsonProperty("name")
     String name;
+    @JsonProperty("code")
+    String code;
     @JsonProperty("district")
     String district;
     @JsonProperty("state")
