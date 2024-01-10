@@ -19,6 +19,7 @@ public class LocationJpaRepository implements LocationRepository {
                 .district("Nilgiris")
                 .state("Tamilnadu")
                 .pinCode("643001")
+                .stdCode("04553")
                 .build();
         locations.add(location);
 
@@ -28,6 +29,7 @@ public class LocationJpaRepository implements LocationRepository {
                 .district("Dharmapuri")
                 .state("Tamilnadu")
                 .pinCode("636704")
+                .stdCode("0553")
                 .build();
         locations.add(location);
 
@@ -37,6 +39,7 @@ public class LocationJpaRepository implements LocationRepository {
                 .district("Dindigul")
                 .state("Tamilnadu")
                 .pinCode("624104")
+                .stdCode("0342")
                 .build();
         locations.add(location);
 
