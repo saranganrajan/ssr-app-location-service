@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 @Component
 public class LocationJpaRepository implements LocationRepository {
@@ -15,6 +16,7 @@ public class LocationJpaRepository implements LocationRepository {
 
         LocationEntity location = LocationEntity.builder()
                 .id("1001")
+                .code(UUID.randomUUID().toString())
                 .name("Udhagamandalam")
                 .district("Nilgiris")
                 .state("Tamilnadu")
@@ -25,6 +27,7 @@ public class LocationJpaRepository implements LocationRepository {
 
         location = LocationEntity.builder()
                 .id("1002")
+                .code(UUID.randomUUID().toString())
                 .name("Hogenakkal")
                 .district("Dharmapuri")
                 .state("Tamilnadu")
@@ -35,6 +38,7 @@ public class LocationJpaRepository implements LocationRepository {
 
         location = LocationEntity.builder()
                 .id("1003")
+                .code(UUID.randomUUID().toString())
                 .name("Kodaikanal")
                 .district("Dindigul")
                 .state("Tamilnadu")

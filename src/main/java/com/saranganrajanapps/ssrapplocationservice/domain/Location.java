@@ -15,6 +15,8 @@ import lombok.NoArgsConstructor;
 public class Location {
     @JsonProperty("id")
     String id;
+    @JsonProperty("code")
+    String code;
     @JsonProperty("name")
     String name;
     @JsonProperty("district")
