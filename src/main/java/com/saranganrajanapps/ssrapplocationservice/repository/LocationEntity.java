@@ -16,4 +16,5 @@ public class LocationEntity {
     String district;
     String state;
     String pinCode;
+    String stdCode;
 }
